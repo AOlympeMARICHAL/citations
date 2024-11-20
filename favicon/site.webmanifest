@@ -1,0 +1,48 @@
+{
+  "name": "Citations",
+  "short_name": "Citations",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/favicon/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon/web-app-manifest-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+
+  
+  
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "screenshots":[
+    {
+      "src":"/favicon/screnshot.png",
+      "sizes":"346x722",
+      "type":"image/png",
+      "form_factor":"wide",
+      "label":"test"
+    },
+
+    {
+      "src":"/favicon/screnshot.png",
+      "sizes":"346x722",
+      "type":"image/png",
+      "form_factor":"narrow",
+      "label":"test2"
+    }
+]
+}
