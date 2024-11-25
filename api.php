@@ -24,6 +24,7 @@ $citations = [];
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
         $citations[] = [
+            "id" => $row['id'],
             "texte" => $row['texte'],
             "auteur" => $row['auteur']
         ];

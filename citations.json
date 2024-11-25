@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "texte": "Le seul vrai voyage, ce ne serait pas d’aller vers de nouveaux paysages, mais d’avoir d’autres yeux.",
+        "auteur": "Marcel Proust"
+    },
+    {
+        "id": "2",
+        "texte": "La vie, c’est comme une bicyclette, il faut avancer pour ne pas perdre l’équilibre.",
+        "auteur": "Albert Einstein"
+    },
+    {
+        "id": "3",
+        "texte": "La créativité, c’est l’intelligence qui s’amuse.",
+        "auteur": "Albert Einstein"
+    },
+    {
+        "id": "4",
+        "texte": "On ne voit bien qu'avec le cœur. L'essentiel est invisible pour les yeux.",
+        "auteur": "Antoine de Saint-Exupéry"
+    },
+    {
+        "id": "5",
+        "texte": "La patience est amère, mais son fruit est doux.",
+        "auteur": "Jean-Jacques Rousseau"
+    },
+    {
+        "id": "6",
+        "texte": "Le succès, c'est d'aller d'échec en échec sans perdre son enthousiasme.",
+        "auteur": "Winston Churchill"
+    },
+    {
+        "id": "7",
+        "texte": "L'éducation est l'arme la plus puissante pour changer le monde.",
+        "auteur": "Nelson Mandela"
+    },
+    {
+        "id": "8",
+        "texte": "Soyez le changement que vous voulez voir dans le monde.",
+        "auteur": "Mahatma Gandhi"
+    },
+    {
+        "id": "9",
+        "texte": "Tout le monde est un génie. Mais si vous jugez un poisson sur sa capacité à grimper à un arbre, il passera sa vie à croire qu'il est stupide.",
+        "auteur": "Albert Einstein"
+    },
+    {
+        "id": "10",
+        "texte": "Le plus grand danger pour la plupart d’entre nous n’est pas que notre objectif soit trop élevé et que nous le manquions, mais qu’il soit trop bas et que nous l’atteignions.",
+        "auteur": "Michel-Ange"
+    }
+]

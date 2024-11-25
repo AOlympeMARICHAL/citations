@@ -80,6 +80,32 @@ if (file_exists($file)) {
     </style>
 </head>
 <body>
+    <script src='indexDB.js'></script>
+    <script>
+        (async () => {
+            const url = "indexDB.js"; // URL de votre API
+            const db = await ouvrirBaseDeDonnees("Citation", 1, (db) => {
+                if (!db.objectStoreNames.contains("citations")) {
+                    db.createObjectStore("citations", { keyPath: "id" });
+                }
+            });
+
+  try {
+    // Étape 1 : Récupérer les données depuis le serveur
+    const donneesServeur = await recupData("citations.json");
+
+    // Étape 2 : Synchroniser les données avec IndexedDB
+    await synchroDB(db, "citations", donneesServeur);
+
+    console.log("Les données du serveur ont été chargées dans IndexedDB !");
+  } catch (error) {
+    console.error("Erreur durant la synchronisation :", error);
+  }
+})();
+
+        
+
+    </script>
     <h1>Gestion des Citations</h1>
     <div class="container">
         <div class="form-group">
